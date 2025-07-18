@@ -6,9 +6,9 @@
 }
 
 body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,13 +17,13 @@ body {
 }
 
 .card {
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   padding: 30px;
   border-radius: 20px;
   max-width: 360px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 .profile-img {
@@ -31,18 +31,19 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #fff;
+  border: 2px solid #ddd;
   margin-bottom: 20px;
 }
 
 h1 {
   font-size: 1.6em;
+  color: #222;
   margin-bottom: 10px;
 }
 
 .bio {
   font-size: 1em;
-  color: #cbd5e1;
+  color: #666;
   margin-bottom: 25px;
 }
 
@@ -58,24 +59,25 @@ h1 {
   padding: 12px;
   border-radius: 30px;
   transition: 0.3s ease;
+  text-align: center;
 }
 
 .instagram {
-  background-color: #e1306c;
-  color: white;
+  background-color: #f9c6d0; /* pastel pink */
+  color: #8a2a42;
 }
 
 .telegram {
-  background-color: #0088cc;
-  color: white;
+  background-color: #c6e2f9; /* pastel blue */
+  color: #2a568a;
 }
 
 .email {
-  background-color: #555;
-  color: white;
+  background-color: #dcdcdc; /* soft gray */
+  color: #4d4d4d;
 }
 
 .btn:hover {
   transform: scale(1.03);
-  opacity: 0.9;
+  opacity: 0.95;
 }
